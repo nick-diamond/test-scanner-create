@@ -1,0 +1,14 @@
+{
+  "name": "github-secret-scanner-workflow-adder",
+  "version": "1.0.0",
+  "description": "Script to add secret scanner workflow to multiple GitHub repositories",
+  "main": "add-secret-scanner.js",
+  "type": "module",
+  "scripts": {
+    "start": "node add-secret-scanner.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "dotenv": "^16.4.1"
+  }
+} 
